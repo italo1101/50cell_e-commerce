@@ -2,7 +2,7 @@
 
 Este é um projeto em construção de uma loja online de produtos Apple, desenvolvido inicialmente para uso pessoal e familiar. Atualmente, estamos trabalhando para torná-lo uma experiência completa de compras online para os amantes da marca Apple.
 
-![App Screenshot](D:\Pasta de Estudos\50cell ecommerce\client\src\assets\print_product\home.png)
+![App Screenshot](50cell ecommerce\client\src\assets\print_product\home.png)
 
 
 ## Tecnologias Utilizadas
