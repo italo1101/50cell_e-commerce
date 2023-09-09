@@ -1,0 +1,125 @@
+@import "../../../css-config/mixins.scss";
+
+.hero-banner{
+    padding: 2.5rem 0;
+    position: relative;
+    background-image: linear-gradient(to right, #FFDF01, rgb(243, 233, 170));
+    @include md{
+        height: calc(100vh - 5rem);
+    }
+
+    .content{
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column-reverse;
+        max-width: calc(100% - 1.25rem);
+        margin: 0 auto;
+        position: relative;
+        @include xl{
+            flex-direction: row;
+            max-width: 90rem;
+        }
+
+        .banner-img{
+            position: relative;
+            z-index: 1;
+            width: 31.25rem;
+            margin-bottom: 1.25rem;
+            @include xl{
+                width: 31.25rem;
+                margin-right: 3.75rem;
+                margin-top: 3.125rem;
+                margin-bottom: 0;
+            }
+            @include xxl{
+                width: 45rem;
+                margin-right: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        .text-content{
+            color: black;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @include xl{
+                position: absolute;
+                left: 3.125rem;
+                top: 50%;
+                transform: translateY(-50%);
+            } 
+
+            @include xxl{
+                left: 0;
+            }
+
+            #title{
+                font-size: 5rem;
+                font-weight: 700;
+                line-height: 1;
+                margin-bottom: 1.25rem;
+                @include xl{
+                    font-size: 11.25rem;
+                } 
+            } 
+
+            #copy-text{
+                max-width: 18.75rem; 
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+                margin-bottom: 1.25rem;
+                @include xl {
+                  max-width: 31.25rem;
+                  font-size: 1.125rem;
+                  line-height: 1.5rem;
+                  margin-bottom: 2.5rem;  
+                }
+            }
+
+            .buttons{
+                display: flex;
+                justify-content: center;
+                gap: 1.25rem;
+
+                .btn{
+                    text-transform: uppercase;
+                    font-size: 0.813rem;
+                    font-weight: 500;
+                    border: 0.125rem solid black;
+                    padding: 0.625rem 1.25rem;
+                    cursor: pointer;
+                    background: none;
+                }
+                
+                .btn:hover{
+                    background-color: black;
+                    color: #FFDF01;
+                    transition: ease-in-out 0.2s;
+                }
+
+                .btn-2{
+                    text-transform: uppercase;
+                    font-size: 0.813rem;
+                    font-weight: 500;
+                    border: 0.125rem solid black;
+                    padding: 0.625rem 1.25rem;
+                    cursor: pointer;
+                    background: none;
+                    background-color: black;
+                    color:#FFDF01;
+                }
+
+                .btn-2:hover{
+                    background-color: transparent; 
+                    color: black;
+                    transition: ease-in-out 0.2s;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,180 @@
+@import "../../css-config/mixins.scss";
+
+.single-product-content {
+    margin: 1.25rem 0;
+
+    @include lg {
+        margin: 4.688rem 0;
+    }
+
+    .layout {
+        max-width: calc(100% - 1.25rem);
+        margin: 0 auto;
+
+        @include lg {
+            max-width: 75rem;
+        }
+
+        .single-product-page {
+            display: flex;
+            flex-direction: column;
+
+            @include lg {
+                flex-direction: row;
+            }
+
+            .image-content {
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.07);
+                flex-shrink: 0;
+
+                @include lg {
+                    width: 37.5rem;
+                    height: 37.5rem;
+                }
+
+                img {
+                    width: 100%;
+                    display: block;
+                }
+            }
+
+            .text-content {
+                display: flex;
+                flex-direction: column;
+                padding-top: 1.25rem;
+
+                @include lg {
+                    padding: 0 2.188rem;
+                }
+
+                .name {
+                    font-size: 1.563rem;
+                    line-height: 1.75rem;
+                    margin-bottom: 1.25rem;
+
+                    @include lg {
+                        font-size: 1.5rem;
+                        line-height: 2rem;
+                    }
+                }
+
+                .price {
+                    font-size: 1.5rem;
+                    line-height: 2rem;
+                    margin-bottom: 1.25rem;
+
+                }
+
+                .desc {
+                    font-size: 0.875rem;
+                    line-height: 1.25rem;
+                    margin-bottom: 1.25rem;
+                    color: #6b6b6b;
+
+                    @include lg {
+                        font-size: 1rem;
+                        line-height: 1.5rem;
+                    }
+                }
+
+                .cart-buttons {
+                    display: flex;
+
+                    @include lg {
+                        margin-top: 1.875rem;
+                    }
+
+                    .quantity-buttons {
+                        width: fit-content;
+                        display: flex;
+                        border: 0.125rem solid #000000;
+                        margin-right: 0.625rem;
+                        height: 3.125rem;
+
+                        span {
+                            font-size: 1.125rem;
+                            width: 2.5rem;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            cursor: pointer;
+                            color: #6b6b6b;
+
+                            &:nth-child(1) {
+                                border-right: 0.125rem solid #000000;
+                            }
+
+                            &:nth-child(2) {
+                                width: 3.75rem;
+                            }
+
+                            &:nth-child(3) {
+                                border-left: 0.125rem solid #000000;
+                            }
+
+
+                        }
+                    }
+
+                    .add-to-cart-button {
+                        outline: 0;
+                        border: 0;
+                        height: 3.125rem;
+                        width: 6.25rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        font-size: 1rem;
+                        color: #FFDF01;
+                        background: #000000;
+                        flex-grow: 1;
+
+                        @include lg {
+                            flex-grow: unset;
+                        }
+
+                        &:hover {
+                            background: #FFDF01;
+                            color: #000000;
+                            transition: ease-in-out 0.3s;
+                        }
+                    }
+                }
+
+                .divider {
+                    margin: 1.25rem 0;
+                    height: 0.063rem;
+                    width: 100%;
+                    border: 0.125rem solid #000000;
+                }
+
+                .info-item {
+                    .text-bold {
+                        font-size: 1.125rem;
+                        font-weight: 500;
+                        display: block;
+
+                        &:nth-child(1) {
+                            margin-bottom: 1.25rem;
+                        }
+
+                        span {
+                            font-size: 1rem;
+                            font-weight: 400;
+                            margin: 1.25rem;
+                            cursor: pointer;
+                            color: #000000;
+                        }
+
+                        svg {
+                            margin: 0 0.313rem;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
