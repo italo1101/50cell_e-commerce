@@ -2,7 +2,7 @@
 
 Este é um projeto em construção de uma loja online de produtos Apple, desenvolvido inicialmente para uso pessoal e familiar. Atualmente, estamos trabalhando para torná-lo uma experiência completa de compras online para os amantes da marca Apple.
 
-![App Screenshot](![image](https://github.com/italo1101/50cell_e-commerce/assets/101906510/9465291b-212c-44b9-b0fe-215370098c3b)
+![App Screenshot](![image](https://github.com/italo1101/50cell_e-commerce/assets/101906510/9465291b-212c-44b9-b0fe-215370098c3b))
 )
 
 
