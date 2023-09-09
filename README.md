@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# 50Cell Ecommerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto em construção de uma loja online de produtos Apple, desenvolvido inicialmente para uso pessoal e familiar. Atualmente, estamos trabalhando para torná-lo uma experiência completa de compras online para os amantes da marca Apple.
 
-## Available Scripts
+![Screenshot da Loja](D:\Pasta de Estudos\50cell ecommerce\client\src\assets\print_product)
 
-In the project directory, you can run:
+## Tecnologias Utilizadas
 
-### `npm start`
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **HTML**: Utilizado para a estruturação e marcação das páginas da loja.
+- **CSS**: Responsável pela estilização e design das páginas.
+- **JavaScript**: Utilizado para tornar a loja interativa e dinâmica.
+- **React**: Framework JavaScript para o desenvolvimento de interfaces de usuário. Ele nos permite criar componentes reutilizáveis e facilita a manipulação do estado da aplicação.
+- **Sass**: Pré-processador CSS que nos ajuda a escrever estilos de forma mais organizada e eficiente.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades Futuras
 
-### `npm test`
+Estou trabalhando para adicionar algumas funcionalidades ao projeto loja de produtos Apple. Estou tentando arrumar tempo para fazer o backend desse projeto mas quando arrumar a baixo tem algumas das funcionalidades que quero adicionar:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Implementar um sistema de autenticação de usuários.
+- Adicionar um carrinho de compras para que os usuários possam selecionar produtos.
+- Integrar um sistema de pagamento seguro.
+- Exibir informações detalhadas sobre os produtos, incluindo avaliações dos clientes.
+- Adicionar um meio fácil para o administrador adicionar novos produtos.
